@@ -8,10 +8,10 @@ function Header() {
     <label id="trigger" htmlFor="menu-toggle"></label>
     <label id="burger" htmlFor="menu-toggle"></label>
     <ul id="menu">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">Портфолио</a></li>
+      <li><a href="#">Цены</a></li>
+      <li><a href="#">Контакты</a></li>
     </ul>
     
   </header>

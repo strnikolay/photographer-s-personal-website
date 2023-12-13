@@ -17,6 +17,9 @@
         height: 3000px;
     }
 }
+header {
+
+}
 
 li, a {
     text-align: end; 
@@ -33,7 +36,8 @@ li, a {
 }
 li {
     width: 230px;
-    text-indent: 56px;}
+    text-indent: 56px;
+}
 a:focus {
     display: block;
     color: #333;
@@ -41,13 +45,13 @@ a:focus {
     transition: all .5s;
 }
 
-html, body {
+/*html, body {
     margin: 0;
     padding: 0;
-    /*background-color: #03A9F4;*/
+    /*background-color: #03A9F4;
     font-family: 'Roboto', sans-serif;
     overflow: hidden;
-}
+}*/
 
 [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
     display: none;
@@ -62,7 +66,7 @@ html, body {
     height: 3px;
     transition: .2s ease;
     cursor: pointer;
-    z-index: 1;
+    z-index: 3;
 }
 #trigger {
     background: none;
@@ -115,6 +119,7 @@ html, body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.26);
     animation: not-checked-anim .2s both;
     transition: .2s;
+    z-index: 2;
 }
 #menu-toggle:checked + #trigger + #burger + #menu {
     animation: checked-anim 1s ease both;
