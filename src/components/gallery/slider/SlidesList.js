@@ -1,0 +1,20 @@
+import React from "react";
+import Slide from "./Slide";
+//import { SliderContext } from "../Slider";
+
+import "../styles.css";
+
+export default function SlidesList(slideNumber, items) {
+  //const { slideNumber, items } = useContext(SliderContext);
+
+  return (
+    <div
+      className="slide-list"
+      style={{ transform: `translateX(-${slideNumber * 100}%)` }}
+    >
+      {items.map((slide, index) => (
+        <Slide key={index} data={slide} />
+      ))}
+    </div>
+  );
+}

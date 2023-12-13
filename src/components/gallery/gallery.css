@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); 
+
+* {
+  box-sizing: border-box;
+}
+
+/*body {
+  font-family: 'Muli', sans-serif;
+  overflow: hidden;
+  margin: 0;
+  /*background: linear-gradient( to top left, #c20303, #000000);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0px;
+}
+
+.slide {
+  border: 1px solid #000;
+  width: 100%;
+  height: 20px;
+  /*border-radius: 20px;*/
+  
+  cursor: pointer;
+  color: #fff;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 500ms ease-in-out;
+  display: flex;
+  /*flex-direction: column;*/
+  align-items: center;
+  justify-content: center;
+}
+
+.one {
+    border-radius: 20px 20px 0 0;
+}
+
+.three{
+    border-radius: 0 0 20px 20px ;
+}
+
+.slide h3 { 
+
+   font-size: 24px;
+   color: #000;
+
+   /*line-height: 10px;
+  /*position: absolute;
+
+  bottom: 10px;
+  left: 10px;
+  margin: 0px;
+  /*opacity: 0;*/
+}
+
+.slide .img_one {
+  width: 0%;
+
+}
+
+.slide.active {
+  align-items: start;  
+  flex: 10;
+}
+.slide.active h3 {
+  margin: 10px 0;  
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+  /*background: #111;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;*/
+}
+
+.slide.active .img_one {
+  width: 95%;
+  height: 85%;
+  position: absolute;
+  bottom: 0;
+  object-fit: cover;
+  object-position: center top;
+}
+
+button {
+  width: 0;
+  height: 0;
+  border: 0;
+}
+
+.slide.active .button {
+  width: 20px;
+  height: 40px;
+  border: 0;
+  background: none;
+  background-image: url(./arrow.svg);
+  background-size: contain;
+}
+
+.left {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+}
+
+.right {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: rotate(180deg);
+}
+
+.slide.active .gal-title {
+  color:#ffffff;
+  text-shadow: 2px 2px 1px #000000;
+  font-size: 24px;
+  font-weight: 700;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  bottom: 60px;
+}
+
+.to-gal-button, .gal-title {
+  display: none;
+}
+
+/*.slide.active .gal-title {
+  display: flex;
+}*/
+
+.slide.active .to-gal-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #acacac;
+  font-size: 12px;
+  font-weight: 700;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  border-radius: 20px;
+}
