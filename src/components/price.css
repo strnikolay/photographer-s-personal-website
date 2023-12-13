@@ -1,0 +1,39 @@
+
+.services .title{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.service-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service{
+    border-radius: 10px;
+    width: 90%;
+    height: 200px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.logo {
+    font-size: 12px;
+    height: 80%;
+    width: 60px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+}
+
+.desc{
+    font-weight: 600;
+    font-size: 10px;
+    width: 75%;
+    height: 80%;
+    border: 1px solid #000;
+}
