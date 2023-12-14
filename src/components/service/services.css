@@ -1,0 +1,106 @@
+
+.services .title{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.service-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service{
+    max-width: 380px;
+    border-radius: 10px;
+    width: 95%;
+    height: 200px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background: url(./background.svg);
+    background-color: #9D8BD6;
+    background-size: contain;
+    background-position: -10px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.logo-wrap {
+    font-size: 12px;
+    height: 80%;
+    width: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 110px; 
+}
+
+.logo-wrap .l1 {
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    top: 78px;
+    left: 55px;
+    transform: rotate(-15deg);
+}
+
+.logo-wrap .l2 {
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    top: 78px;
+    left: 34px;
+    transform: rotate(-15deg);
+}
+
+.logo-wrap .l3 {
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    top: 78px;
+    left: 35px;
+    transform: rotate(-15deg);
+}
+
+
+.desc{
+    font-weight: 700;
+    font-size: 10px;
+    width: 65%;
+    height: 80%;
+    text-align: start;
+}
+
+.d1{
+    margin-left: 5px;
+}
+
+.d2{
+    margin-left: 15px;
+}
+
+.d3{
+    margin-left: 25px;
+}
+
+.d4{
+    margin-left: 30px;
+}
+
+.services .lead {
+    width: 75px;
+    height: 25px;
+    color: #82C4D3;
+    background-color: #641E4D;
+    border-radius: 10px;
+    border: 0;
+    font-size: 10px;
+    position: absolute;
+    right: 15px;
+    bottom: 8px;
+}

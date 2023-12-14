@@ -1,0 +1,58 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.reviews-wrapper{
+    width: 85%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #9D8BD6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foto{
+    width: 80px;
+    height: 80px;
+    border: 1px solid;
+    background-image: url("./rew-foto.png") ;
+    background-size: contain;
+}
+
+.text{
+    width: 70%;
+    height: 150px;
+    border: 1px solid;
+}
+
+.reviews .button {
+    width: 20px;
+    height: 40px;
+    border: 0;
+    background: none;
+    background-image: url(./arrow.svg);
+    background-size: contain;
+  }
+  
+  .reviews .left {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+  }
+  
+  .right {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: rotate(180deg);
+  }
