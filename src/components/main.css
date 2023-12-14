@@ -1,9 +1,9 @@
 .main {
-    height: 95vh;
+    height: 650px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    position: relative;
 }
 
 h1 {
@@ -17,10 +17,11 @@ h2{
 
 
 .foto_wrapper {
-    margin-top: 40px;
-    width: 150px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 170px;
     height: 200px;
-    background-color: rgb(154, 154, 154);
+    background-color: #9D8BD6;
     border-radius: 15px;
     transform: rotate(10deg);
 }
@@ -46,10 +47,11 @@ h2{
     width: 100px;
     height: 30px;
     border-radius: 10px;
+    background-color: #9D8BD6;
 }
 
 .lead h2 {
-    width: 180px;
+    width: 200px;
     font-size: 12px;
     text-align: start;
 }

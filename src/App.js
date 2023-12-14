@@ -1,16 +1,21 @@
 import './App.css';
-import Header from './components/header';
+import Header from './components/header/header';
 import Main from './components/main';
 import Gallery from './components/gallery/gallery';
-import Price from './components/price';
+import Services from './components/service/services';
+import Faq from './components/FAQ/faq';
+import Reviews from './components/reviews/reviews';
+
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      {/*<Main/>
-      <Gallery/>*/}
-      <Price />
+      <Main/>
+      <Gallery/>
+      <Services />
+      <Faq/>
+      <Reviews/>
     </div>
   );
 }

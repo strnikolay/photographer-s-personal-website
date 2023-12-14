@@ -25,7 +25,7 @@ export default function Gallery() {
   }
 
   return (
-  <div className='main'>    
+  <div className='gallery'>    
     <div className="container">
       <div className="slide one active">
         <h3>фотосессии</h3>
