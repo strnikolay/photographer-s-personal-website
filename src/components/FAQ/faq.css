@@ -24,7 +24,7 @@ details{
 .rect {
     width: 95%;
     height: 2px;
-    border: 1px solid #000;
+    border: 1px solid #ffd700;
     /*background-color: black;*/
     z-index: 2;
     margin-left: 10px;
@@ -35,17 +35,19 @@ details > summary {
     list-style: none;
     display: flex;
     justify-content: start;
-    background-color: #9D8BD6;
+    background-color: #000;
     border-radius: 10px;
     align-items: center;
     padding-left: 10px;
+    color:#ffd700;
 }
+
 
 summary:before {
     content: "+";
     width: 25px;
     height: 25px;
-    background-color: #82C4D3;
+    background-color: #ffd700;
     border-radius: 50%;
     font-size: 20px;
     font-weight: bold;
@@ -55,6 +57,7 @@ summary:before {
     flex-direction:row;
     align-items: center;
     justify-content: center;
+    color:#000
 }
 
 details[open] > summary::before{
@@ -65,8 +68,9 @@ details[open] > summary::before{
 
 details > p {
     margin: -10px 0;
-    background-color: #9D8BD6;
+    background-color: #000;
     padding: 10px;
     border-radius: 0 0 10px 10px;
     margin-bottom: 5px;
+    color:#ffd700;
 }
