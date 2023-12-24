@@ -77,3 +77,23 @@ h2{
     filter: drop-shadow(0 1px 1px rgba(187, 187, 187, 0.5))
             drop-shadow(0 4px 1px rgba(187, 187, 187, 0.3));            
 }
+
+.history {
+    position: relative;
+    top: -30px;
+    background-color: #000;
+    z-index: -1;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    color: #ffd700;
+}
+
+.history img {
+    width: 60px;
+}
+
+.history .exp-item {
+    display: flex;
+    flex-direction: column;
+}
