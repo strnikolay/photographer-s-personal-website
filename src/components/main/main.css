@@ -7,31 +7,33 @@
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 32px;
 }
 
 h2{
-    font-size: 12px;
+    font-size: 22px;
 }
 
+/*.desc{
+    color: #000
+}*/
 
 
 .foto_wrapper {
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     width: 170px;
-    height: 200px;
-    background-color: #9D8BD6;
-    border-radius: 15px;
-    transform: rotate(10deg);
+    height: 230px;
+    position: relative;
+    /*transform: rotate(10deg);*/
 }
 
 .foto_wrapper img{
-    width: 160px;
-    transform: rotate(-10deg);
+    width: 260px;
+    /*transform: rotate(-10deg);*/
     position: absolute;
     top: -30px;
-    left: -20px
+    left: -30px
     /*height: 200px;*/
 }
 
@@ -39,22 +41,24 @@ h2{
     margin: 20px 0;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .lead-button{
     width: 100px;
     height: 30px;
+    margin-left: 70px;
     border-radius: 10px;
     background-color: #000000;
     color: #ffd700
 }
 
 .lead h2 {
-    width: 200px;
-    font-size: 12px;
+    width: 220px;
+    font-size: 14px;
     text-align: start;
+    margin-top: 90px;
 }
 
 .separator{
@@ -83,11 +87,11 @@ h2{
 
 .history {
     position: relative;
-    top: -30px;
+    top: -10px;
     background-color: #000;
     z-index: -1;
     width: 100%;
-    height: 250px;
+    height: 300px;
     display: flex;
     color: #ffd700;
 }
@@ -103,3 +107,40 @@ h2{
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+/* Inverted rounded corners */
+/*.ss-style-invertedrounded {
+	margin-bottom: 90px;
+	padding: 13em 10% 10em;
+	border-radius: 0 0 0 90px;
+}
+
+.ss-style-invertedrounded::before,
+.ss-style-invertedrounded::after {
+	left: 0;
+	z-index: -1;
+	height: 90px;
+	background: #000;
+}
+
+.ss-style-invertedrounded::before {
+	top: 100%;
+	width: 100%;
+	border-radius: 0 90px 0 0;
+} 
+
+.ss-style-invertedrounded::after {
+	bottom: 0;
+	z-index: -1;
+	width: 50%;
+}
+
+.col-3 .column {
+	padding: 0 1%;
+	width: 33%;
+	text-align: center;
+    height: 300px;
+}*/

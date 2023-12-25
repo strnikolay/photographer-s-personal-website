@@ -1,6 +1,6 @@
 import React from 'react'
 import "./main.css"
-import foto from "./foto.png"
+import foto from "./foto2.png"
 import expir from "./experience-icon_yellow.png"
 import fotoicon from "./fotoicon-yellow.png"
 import cust from "./icon2-yellow.png"
@@ -28,6 +28,11 @@ export default function Main() {
             <div className='exp-item'><img src={fotoicon} />1345 профессиональных фотосесий</div>
             <div className='exp-item'><img src={cust}/>768 довольных клиентов</div>
         </div>
+        {/*<section class="col-3 ss-style-invertedrounded">
+            <div class="column">
+            <p>Inverted Round</p>
+            </div>
+        </section>*/}
     </div>
   )
 }
