@@ -26,6 +26,7 @@ export default function Gallery() {
 
   return (
   <div className='gallery'>    
+    <div className="separator-top" />
     <div className="container">
       <div className="slide one active">
         <h3>фотосессии</h3>
@@ -54,6 +55,7 @@ export default function Gallery() {
         <button className='to-gal-button' value="В галерею">В галерею</button>
       </div>
     </div>
+    <div className="separator-bottom" />
   </div>
   )
 }

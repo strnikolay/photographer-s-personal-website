@@ -4,14 +4,16 @@ import "./reviews.css"
 function Reviews() {
   return (
     <section className='reviews'>
-    <div className='title'>Отзывы</div>
-    <div className='reviews-wrapper'>
+      <div className='title'>Отзывы</div>
+      <div className='reviews-wrapper'>
+        <input type='button' className='button left' />
         <div className='foto'></div>
-        <div className='text'></div>
-    </div>
-    <button className='button left' />
-    <button className='button right' />
-    
+        <div class="border-item">
+          <div class="border-head">Иванов Иван</div>
+          <p>Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва</p>
+        </div>
+        <input type='button' className='button right' />
+      </div>
     </section>
 
   )
