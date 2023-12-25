@@ -21,15 +21,15 @@ export default function Main() {
                 в Екатеринбурге.</h2>
         </div>
         <div className='shadow'>
-            <div class="separator" />
+            <div className="separator" />
         </div>
         <div className='history'>
-            <div className='exp-item'><img src={expir} />10 лет опыта в фотографии</div>
-            <div className='exp-item'><img src={fotoicon} />1345 профессиональных фотосесий</div>
-            <div className='exp-item'><img src={cust}/>768 довольных клиентов</div>
+            <div className='exp-item'><img src={expir} alt=""/>10 лет опыта в фотографии</div>
+            <div className='exp-item'><img src={fotoicon} alt=""/>1345 профессиональных фотосесий</div>
+            <div className='exp-item'><img src={cust} alt=""/>768 довольных клиентов</div>
         </div>
-        {/*<section class="col-3 ss-style-invertedrounded">
-            <div class="column">
+        {/*<section className="col-3 ss-style-invertedrounded">
+            <div className="column">
             <p>Inverted Round</p>
             </div>
         </section>*/}

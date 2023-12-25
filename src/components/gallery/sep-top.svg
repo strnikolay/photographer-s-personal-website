@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" id="" preserveAspectRatio="xMidYMax meet" viewBox="0 0 1600 110">
-    <polygon class="" style="opacity: 0.3; fill: #ffd700;" points="1604,80 1604,50 -4,0 -4,0"></polygon>
-    <polygon class="" style="opacity: 1;fill:  #ffd700;" points="1604,110 1604,80 -4,0 -4,0"></polygon>
+    <polygon style="opacity: 0.3; fill: #ffd700;" points="1604,80 1604,50 -4,0 -4,0"></polygon>
+    <polygon style="opacity: 1;fill:  #ffd700;" points="1604,110 1604,80 -4,0 -4,0"></polygon>
 
-    <polygon class="" style="fill: #000" points="-4,0 1604,110 1604,115 -4,115"></polygon>
+    <polygon style="fill: #000" points="-4,0 1604,110 1604,115 -4,115"></polygon>
 </svg>  

@@ -35,7 +35,7 @@ details > summary {
     height: 40px;
     list-style: none;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     background-color: #000;
     border-radius: 10px;
     align-items: center;
