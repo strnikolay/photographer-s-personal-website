@@ -10,57 +10,55 @@ function Services() {
         <div className='service s-one'>
             <div className='logo-wrap'>
                 <img className='logo' src={serv_logo}/>
-                <span className='l1'>MINI</span>
+                <p className='l1'>Фотосесия</p>
             </div>
             <div className='desc'>
-            <span className='d1'>- Индивидуальная, групповая - 4000 руб.\час</span><br/>
-            <span className='d2'>- Стилизация образа и постановка.</span><br/>
-            <span className='d3'>- Выбор студии</span> <br/><br/> 
-            <span className='d4'>Отдельно оплачиваются:</span><br/> 
-            <span className='d4'>- аренда студии — по тарифам студии</span><br/>
-            <span className='d4'>- услуги визажиста — 2500 руб.\образ</span><br/><br/>
-            <br/>
-            <span className='d2'>Бонус — видеоролик 1,5 мин.</span>
-            <input className='lead' type='button' value="ЗАКАЗАТЬ"/>
+            <p className='d1'>-Фотосесия - 4000 руб.\час</p>
+            <p className='d2'>- Стилизация образа и постановка.</p>
+            <p className='d3'>- Выбор студии</p> 
+            <p className='d4'>Отдельно оплачиваются:</p>
+            <p className='d4'>- аренда студии </p>
+            <p className='d4'>- услуги визажиста — 2500 руб.</p>
+            <p className='d5'>Бонус:</p>
+            <p className='d6'>видеоролик 1,5 мин.</p>
+            <input className='lead' name="lead" type='button' value="ЗАКАЗАТЬ"/>
             </div>
         </div>
 
 
         <div className='service s-two'>
-
-            <div className='logo-wrap'>
+        <div className='logo-wrap'>
                 <img className='logo' src={serv_logo}/>
-                <span className='l2'>STANDART</span>
+                <p className='l2'>Мероприятие</p>
             </div>
             <div className='desc'>
-            <span className='d1'>- Индивидуальная, групповая - 4000 руб.\час</span><br/>
-            <span className='d2'>- Стилизация образа и постановка.</span><br/>
-            <span className='d3'>- Выбор студии</span> <br/><br/> 
-            <span className='d4'>Отдельно оплачиваются:</span><br/> 
-            <span className='d4'>- аренда студии — по тарифам студии</span><br/>
-            <span className='d4'>- услуги визажиста — 2500 руб.\образ</span><br/><br/>
-            <br/>
-            <span className='d2'>Бонус — видеоролик 1,5 мин.</span>
-            <input className='lead' type='button' value="ЗАКАЗАТЬ"/>
+            <p className='d1'>-Мероприятие - 4000 руб.\час</p>
+            <p className='d2'>-</p>
+            <p className='d3'>- </p> 
+            <p className='d4'>Отдельно оплачиваются:</p>
+            <p className='d4'>-  </p>
+            <p className='d4'>- </p>
+            <p className='d5'>Бонус:</p>
+            <p className='d6'>видеоролик 1,5 мин.</p>
+            <input className='lead' name="lead" type='button' value="ЗАКАЗАТЬ"/>
             </div>
         </div>
 
         <div className='service s-three'>
-
-            <div className='logo-wrap'>
+        <div className='logo-wrap'>
                 <img className='logo' src={serv_logo}/>
-                <span className='l3'>PREMIUM</span>
+                <p className='l3'>Репортаж</p>
             </div>
             <div className='desc'>
-            <span className='d1'>- Индивидуальная, групповая - 4000 руб.\час</span><br/>
-            <span className='d2'>- Стилизация образа и постановка.</span><br/>
-            <span className='d3'>- Выбор студии</span> <br/><br/> 
-            <span className='d4'>Отдельно оплачиваются:</span><br/> 
-            <span className='d4'>- аренда студии — по тарифам студии</span><br/>
-            <span className='d4'>- услуги визажиста — 2500 руб.\образ</span><br/><br/>
-            <br/>
-            <span className='d2'>Бонус — видеоролик 1,5 мин.</span>
-            <input className='lead' type='button' value="ЗАКАЗАТЬ"/>
+            <p className='d1'>-Репортаж - 4000 руб.\час</p>
+            <p className='d2'>-</p>
+            <p className='d3'>- </p> 
+            <p className='d4'>Отдельно оплачиваются:</p>
+            <p className='d4'>-  </p>
+            <p className='d4'>- </p>
+            <p className='d5'>Бонус:</p>
+            <p className='d6'>видеоролик 1,5 мин.</p>
+            <input className='lead' name="lead" type='button' value="ЗАКАЗАТЬ"/>
             </div>
         </div>
 

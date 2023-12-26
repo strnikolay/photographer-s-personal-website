@@ -1,5 +1,5 @@
 .services{
-    height: 800px;
+    height: 650px;
 }
 
 .services .title{
@@ -10,25 +10,27 @@
 .service-wrapper{
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
+    align-items: center;
     position: relative;
     height: 670px;
 }
 
 .service{
-    max-width: 380px;
+    margin-bottom: 10px;
+    /*max-width: 380px;*/
     border-radius: 10px;
-    width: 95%;
-    height: 200px;
+    width: 300px;
+    height: 180px;
     border: 1px solid #000;
     display: flex;
     align-items: center;
     justify-content: space-around;
     text-align: center;
     background: url(./background.svg);
+    background-repeat: no-repeat;
     background-color: #000;
     background-size: contain;
-    background-position: -10px;
+    background-position: center;
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0))
 }
 
@@ -41,33 +43,33 @@
 }
 
 .logo{
-    height: 110px; 
+    height: 90px; 
 }
 
 .logo-wrap .l1 {
-    font-size: 14px;
+    font-size: 11px;
     font-weight: 700;
     position: absolute;
-    top: 78px;
-    left: 55px;
+    top: 73px;
+    left: 24px;
     transform: rotate(-15deg);
 }
 
 .logo-wrap .l2 {
-    font-size: 14px;
+    font-size: 9px;
     font-weight: 700;
     position: absolute;
-    top: 78px;
-    left: 34px;
+    top: 73px;
+    left: 23px;
     transform: rotate(-15deg);
 }
 
 .logo-wrap .l3 {
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 700;
     position: absolute;
-    top: 78px;
-    left: 35px;
+    top: 73px;
+    left: 31px;
     transform: rotate(-15deg);
 }
 
@@ -75,9 +77,10 @@
 .desc{
     font-weight: 700;
     font-size: 10px;
-    width: 65%;
-    height: 80%;
+    width: 190px;
+    height: 130px;
     text-align: start;
+    line-height: 11px;
 }
 
 .d1{
@@ -90,27 +93,38 @@
 
 .d3{
     margin-left: 25px;
+    margin-bottom: 15px;
 }
 
 .d4{
     margin-left: 30px;
 }
 
+.d5{
+    margin-top: 16px;
+    margin-left: 25px;
+}
+.d6{
+    margin-left: 15px;
+}
 .services .lead {
     width: 75px;
     height: 25px;
-    color: #ffd700;
     background-color: #000000;
     border-radius: 10px;
     border: 0;
-    font-size: 10px;
     position: absolute;
-    right: 15px;
-    bottom: 8px;
-    
+    right: 5px;
+    bottom: 12px;
+    color: #ffd700;
+    font-size: 10px;
+    font-weight: 600;
+    justify-content: center;
 }
 
-.s-one {
+
+
+/*.s-one {
     position: absolute;
     left: 10px;
     top: 10px;
@@ -127,4 +141,4 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
-}
+}*/

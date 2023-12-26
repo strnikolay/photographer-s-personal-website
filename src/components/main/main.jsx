@@ -10,7 +10,7 @@ export default function Main() {
   return (
     <div className='main'>    
         <h1>Фотограф Алексей Мигалин</h1> 
-        <h2>Увереннность в каждом мгновении</h2>       
+        <p className='deviz'>Увереннность в каждом мгновении</p>       
         <div className='foto_wrapper'>
             <img src={foto} alt=""/>
         </div>
@@ -24,9 +24,9 @@ export default function Main() {
             <div className="separator" />
         </div>
         <div className='history'>
-            <div className='exp-item'><img src={expir} alt=""/>10 лет опыта в фотографии</div>
-            <div className='exp-item'><img src={fotoicon} alt=""/>1345 профессиональных фотосесий</div>
-            <div className='exp-item'><img src={cust} alt=""/>768 довольных клиентов</div>
+            <div className='exp-item'><img src={expir} alt=""/><p>10 лет опыта в фотографии</p></div>
+            <div className='exp-item'><img src={fotoicon} alt=""/><p>1345 профессиональных фотосесий</p></div>
+            <div className='exp-item'><img src={cust} alt=""/><p>768 довольных клиентов</p></div>
         </div>
         {/*<section className="col-3 ss-style-invertedrounded">
             <div className="column">
