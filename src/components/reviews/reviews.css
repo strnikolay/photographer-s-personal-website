@@ -13,13 +13,13 @@ section{
 .title {
     font-size: 24px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 0.2rem;
 }
 
 .reviews-wrapper{
     width: 95%;
-    height: 200px;
-    border-radius: 10px;
+    height: 20rem;
+    border-radius: 0.1rem;
     background-color: #000000;
     display: flex;
     align-items: center;
@@ -28,9 +28,9 @@ section{
 }
 
 .foto{
-    margin-left: 10px;
-    width: 90px;
-    height: 90px;
+    margin-left: 0.1rem;
+    width: 9rem;
+    height: 9rem;
     /*border: 1px solid;*/
     background-image: url("./rew-foto.png") ;
     background-size: contain;

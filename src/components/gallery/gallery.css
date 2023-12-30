@@ -25,19 +25,19 @@
   background-image: url("./sep-top.svg");
   background-repeat: no-repeat;
   width: 100%;
-  height: 42px;
+  height: 4.2rem;
 }
 
 .separator-bottom{
   background-image: url("./sep-bottom.svg");
   background-repeat: no-repeat;
   width: 100%;
-  height: 42px;
+  height: 4.2rem;
 }
 
 .container {
   width: 100%;
-  height: 700px;
+  height: 70rem;
   display: flex;
   flex-direction: column;
   padding: 0 0px;

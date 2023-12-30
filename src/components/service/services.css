@@ -1,5 +1,5 @@
 .services{
-    height: 650px;
+    height: 65rem;
 }
 
 .services .title{
@@ -12,15 +12,15 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    height: 670px;
+    height: 67rem;
 }
 
 .service{
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     /*max-width: 380px;*/
-    border-radius: 10px;
-    width: 300px;
-    height: 180px;
+    border-radius: 1rem;
+    width: 30rem;
+    height: 18rem;
     border: 1px solid #000;
     display: flex;
     align-items: center;

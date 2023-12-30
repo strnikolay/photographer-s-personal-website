@@ -1,5 +1,5 @@
 .main {
-    height: 740px;
+    height: 74rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,17 +26,17 @@ h2{
 
 
 .foto_wrapper {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 170px;
-    height: 230px;
+    margin-top: 0.30rem;
+    margin-bottom: 0.3rem;
+    width: 1.7rem;
+    height: 2.3rem;
     position: relative;
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0))
 }
 
 .foto_wrapper img{
-    width: 260px;
-    width: 20rem
+    width: 2.6rem;
+    /*width: 20rem*/
     /*transform: rotate(-10deg);*/
     /*position: absolute;
     top: -30px;

@@ -21,7 +21,7 @@
 
 li, a {
     text-align: end; 
-    margin: 75px 0 -55px 0;
+    margin: 7.5rem 0 -5.5rem 0;
     color: #ffd700;
     font: 14pt "Roboto", sans-serif;
     font-weight: 700;
@@ -33,7 +33,7 @@ li, a {
     display: none;
 }
 li {
-    width: 230px;
+    width: 23rem;
     text-indent: 56px;
 }
 a:focus {
