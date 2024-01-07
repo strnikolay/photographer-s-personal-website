@@ -1,9 +1,7 @@
 import React from 'react'
 import "./main.css"
 import foto from "./foto2.png"
-import expir from "./experience-icon_yellow.png"
-import fotoicon from "./fotoicon-yellow.png"
-import cust from "./icon2-yellow.png"
+import History from './history'
 //import sep from "./separator.svg"
 
 export default function Main() {
@@ -23,16 +21,7 @@ export default function Main() {
         <div className='shadow'>
             <div className="separator" />
         </div>
-        <div className='history'>
-            <div className='exp-item'><img src={expir} alt=""/><p>10 лет опыта в фотографии</p></div>
-            <div className='exp-item'><img src={fotoicon} alt=""/><p>1345 профессиональных фотосесий</p></div>
-            <div className='exp-item'><img src={cust} alt=""/><p>768 довольных клиентов</p></div>
-        </div>
-        {/*<section className="col-3 ss-style-invertedrounded">
-            <div className="column">
-            <p>Inverted Round</p>
-            </div>
-        </section>*/}
+        <History />
     </div>
   )
 }
