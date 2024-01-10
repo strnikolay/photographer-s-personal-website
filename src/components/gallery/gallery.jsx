@@ -1,9 +1,9 @@
 import React, { useEffect }  from 'react'
 import "./gallery.css"
 //import Slider from "./slider"
-import one from "./3.jpg"
-import two from "./1.jpg"
-import three from "./2.jpg"
+import one from "./img/3.jpg"
+import two from "./img/1.jpg"
+import three from "./img/3.jpg"
 
 export default function Gallery() {
   //const slides = document.querySelectorAll ('.slide')

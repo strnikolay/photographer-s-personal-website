@@ -1,16 +1,13 @@
-section{
+.reviews{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
-}
-
-.reviews {
     height: 300px;
 }
 
-.title {
+.reviews .title {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 0.2rem;
@@ -27,7 +24,7 @@ section{
     color: #ffd700;
 }
 
-.foto{
+.reviews .foto{
     margin-left: 0.1rem;
     width: 9rem;
     height: 9rem;

@@ -1,7 +1,6 @@
 import React from 'react'
 import "./main.css"
-import foto from "./foto2.png"
-import History from './history'
+import foto from "./img/foto3.png"
 //import sep from "./separator.svg"
 
 export default function Main() {
@@ -10,7 +9,7 @@ export default function Main() {
         <h1>Фотограф Алексей Мигалин</h1> 
         <p className='deviz'>Увереннность в каждом мгновении</p>       
         <div className='foto_wrapper'>
-            <img src={foto} alt=""/>
+            <div className='foto' alt=""/>
         </div>
         <div className='lead'>
             <input type="button" className='lead-button' value='Заказать' />
@@ -21,7 +20,6 @@ export default function Main() {
         <div className='shadow'>
             <div className="separator" />
         </div>
-        <History />
     </div>
   )
 }
