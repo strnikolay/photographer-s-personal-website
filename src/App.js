@@ -6,6 +6,7 @@ import Gallery from './components/gallery/gallery';
 import Services from './components/service/services';
 import Faq from './components/FAQ/faq';
 import Reviews from './components/reviews/reviews';
+import History from './components/history/history';
 
 //const fontFormula = (win/
 
@@ -30,6 +31,7 @@ function App() {
     <div className="App">
       <Header/>
       <Main/>
+      <History />
       <Services />
       <Gallery/>
       <Faq/>
