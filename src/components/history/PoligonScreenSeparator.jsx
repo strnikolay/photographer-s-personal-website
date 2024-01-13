@@ -2,7 +2,6 @@ import "./PoligonScreenSeparator.css"
 
 
 function PoligonScreenSeparator () {
-
   return(
   <div className="PS"> 
 
