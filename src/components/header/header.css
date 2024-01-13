@@ -22,7 +22,7 @@
 li, a {
     text-align: end; 
     margin: 7.5rem 0 -5.5rem 0;
-    color: #ffd700;
+    color: var(--yellow);
     font: 14pt "Roboto", sans-serif;
     font-weight: 700;
     line-height: 1.8;
@@ -59,7 +59,7 @@ a:focus {
     right: 7px;
     position: absolute;
     top: 7px;
-    background: #ffd700;
+    background: var(--yellow);
     width: 20px;
     height: 3px;
     transition: .2s ease;

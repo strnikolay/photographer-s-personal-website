@@ -169,7 +169,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffd700;;
+  background-color: var(--yellow);
   font-size: 12px;
   font-weight: 700;
   width: 100px;
