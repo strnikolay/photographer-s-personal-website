@@ -2,10 +2,10 @@
 .PS .section-black {
   display: flex;
   background-color: #000;
-  background-size: auto 60px;
+  background-size: auto 6rem;
   background-repeat: repeat-x;
   background-position: center bottom;
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 

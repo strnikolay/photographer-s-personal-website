@@ -34,7 +34,7 @@ li, a {
 }
 li {
     width: 23rem;
-    text-indent: 56px;
+    text-indent: 5.6rem;
 }
 a:focus {
     display: block;
@@ -56,12 +56,12 @@ a:focus {
 }
 
 #trigger, #burger, #burger:before, #burger:after {
-    right: 7px;
+    right: .7rem;
     position: absolute;
-    top: 7px;
+    top: .7rem;
     background: var(--yellow);
-    width: 20px;
-    height: 3px;
+    width: 2rem;
+    height: .3rem;
     transition: .2s ease;
     cursor: pointer;
     z-index: 3;
